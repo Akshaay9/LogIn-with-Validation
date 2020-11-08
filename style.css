@@ -1,0 +1,85 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  
+    
+}
+
+    
+.container{
+    border: 2px solid black;
+    display: inline-block;
+  
+    text-align: center;
+    margin: 9% 35%;
+    padding: 2 2%;
+    width: 30vw;
+    
+}
+.form-control{
+    padding: 3% 1%;
+}
+
+/* ========text box */
+.form-control.success input {
+	border-color: #2ecc71;
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+}
+/* ======================= */
+
+
+/* error msg */
+.form-control small{
+    display: block;
+    visibility: hidden;
+}
+.form-control.error small {
+    visibility: visible;
+    color: red;
+    
+}
+
+/* ==================== */
+
+
+
+
+
+
+.btn{
+    padding: 2%;
+    width: 50%;
+    margin: 1%;
+    background-color: rgb(116, 92, 139);
+    border: none;
+    
+}
+
+h1{
+    color: blue;
+}
+
+
+/* ===icons  */
+.form-control i {
+	visibility: hidden;
+	position: absolute;
+	
+}
+.form-control.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form-control.error i.fa-times-circle {
+    visibility: visible;
+	color: #e74c3c;
+	
+}
+
+
+
